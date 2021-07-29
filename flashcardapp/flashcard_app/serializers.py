@@ -12,4 +12,4 @@ class CollectionSerializer(serializers.ModelSerializer):
 class CardSerializer(serializers.ModelSerializer):
     class Meta:
         model = Cards
-        fields = ['collection', 'question', 'answer', 'id']
+        fields = ['id', 'question', 'answer', 'collection']
